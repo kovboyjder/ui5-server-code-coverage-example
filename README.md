@@ -1,4 +1,4 @@
-# QLDH_FLP_Server
+# FLP_Server
 
 This is a testing tool for getting code coverage to work on local testing.
 
@@ -10,7 +10,7 @@ Open the command prompt and navigate to a directory where you want to install th
 
 Execute the following command
 ```
-git clone https://git.wfm.health.qld.gov.au/myHR/FioriApps/qldh_flp_server.git
+git clone https://github.com/kovboyjder/ui5-server-code-coverage-example.git
 ```
 
 then run 
@@ -25,7 +25,7 @@ To run the server write the following command in the command line.
 npm run serve
 ```
 
-Now open chrome and use the following command http://localhost:8080/fiori?sap-ui-debug=qldh to open MYHR
+Now open chrome and use the following command http://localhost:8080/sap/bc/ui5_ui5/ui2/ushell/shells/abap/FioriLaunchpad.html?sap-ui-debug=true to open Fiori
 
 Once done with testing, open up the chrome debugger by pressing F12
 

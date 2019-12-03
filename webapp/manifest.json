@@ -1,0 +1,78 @@
+{
+	"_version": "1.12.0",
+	"sap.app": {
+		"id": "flp_server",
+		"type": "application",
+		"i18n": "i18n/i18n.properties",
+		"title": "{{appTitle}}",
+		"description": "{{appDescription}}",
+		"applicationVersion": {
+			"version": "1.0.0"
+		},
+		
+		"sourceTemplate": {
+			"id": "servicecatalog.connectivityComponentForManifest",
+			"version": "0.0.0"
+		}
+	},
+	"sap.ui": {
+		"technology": "UI5",
+		"icons": {
+			"icon": "sap-icon://task",
+			"favIcon": "",
+			"phone": "",
+			"phone@2": "",
+			"tablet": "",
+			"tablet@2": ""
+		},
+		"deviceTypes": {
+			"desktop": true,
+			"tablet": true,
+			"phone": true
+		},
+		"supportedThemes": [
+			"sap_belize"
+		]
+	},
+	"sap.ui5": {
+		
+		"resourceRoots": {},
+		"dependencies": {
+			"minUI5Version": "1.58.0",
+			"components": {
+				
+			},
+			"libs": {
+				
+			}
+		},
+		"componentUsages": {
+			
+		},
+		"contentDensities": {
+			"compact": true,
+			"cozy": true
+		},
+		"resources": {
+			"css": [
+				{
+					"uri": "css/style.css"
+				}
+			]
+		},
+		"models": {
+			
+		},
+		"services": {
+			"ShellUIService": {
+				"factoryName": "sap.ushell.ui5service.ShellUIService",
+				"lazy": false,
+				"settings": {
+					"setTitle": "auto"
+				}
+			}
+		}
+		
+	}
+	
+}
